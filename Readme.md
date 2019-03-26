@@ -4,7 +4,7 @@
 <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
 </a>
 
-This template deploys a VM Scale Set based on a specified custom image (in the form of a Managed Image), connected to an existing subnet in an existing Virtual Network, and adds the instances to a specified existing two Application Gateway Backend Pools. This is useful in cases where you might want to deploy multiple VM Scale Sets in the same Virtual Network, as well as configure the two Application Gateways outside of this template, such as through the portal, which provides a more reliable experience for things like adding HTTPS listeners.
+This template deploys a VM Scale Set based on a specified custom image (in the form of a Managed Image), connected to an existing subnet in an existing Virtual Network, and adds the instances to a specified existing two Application Gateway Backend Pools. 
 
 `Tags: VM Scale Set, VMSS, Managed Disks, Managed Images, Custom Image`
 
@@ -12,9 +12,9 @@ This template deploys a VM Scale Set based on a specified custom image (in the f
 
 To deploy this template, you will need:
  * An existing Managed Image ([about Managed Images](https://docs.microsoft.com/en-us/azure/virtual-machines/virtual-machines-windows-capture-image-resource))
- * An existing Virtual Network and subnet located in another Resource Group
- * An existing Application Gateway and backend pool located in another Resource Group
-
+ * An existing Virtual Network and three subnets, such as VMSS subnet, AppGw1 subnet and AppGw2 subnet.
+ * An existing two Application Gateways and backend pools.
+ 
 In the parameters, you will need to take note of:
  * The name of the resource group containing the Managed Image
  * The name of the Managed Image itself
