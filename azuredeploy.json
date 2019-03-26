@@ -118,7 +118,7 @@
     }
   },
   "variables": {
-    "vmssName": "[toLower(substring(parameters('vmssName'), 0, 9))]",
+    "vmssName": "[toLower(substring(parameters('vmssName'), 0, 6))]",
     "subnetId": "[resourceId(parameters('existingVirtualNetworkResourceGroup'), 'Microsoft.Network/virtualNetworks/subnets', parameters('existingVirtualNetworkName'), parameters('existingVirtualNetworkSubnet'))]",
     "appGwId1": "[resourceId(parameters('existingAppGatewayResourceGroup'), 'Microsoft.Network/applicationGateways', parameters('existingAppGatewayName1'))]",
     "appGwBePoolId1": "[concat(variables('appGwId1'), '/backendAddressPools/', parameters('existingAppGatewayBackendPoolName1'))]",
