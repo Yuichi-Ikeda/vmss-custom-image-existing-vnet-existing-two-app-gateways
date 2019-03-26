@@ -1,9 +1,9 @@
 # VM Scale Set from a Managed Image connected to an existing Virtual Network and two Application Gateways
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https://github.com/Yuichi-Ikeda/vmss-custom-image-existing-vnet-existing-two-app-gateways/blob/master/azuredeploy.json" target="_blank">
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fgithub.com%2FYuichi-Ikeda%2Fvmss-custom-image-existing-vnet-existing-two-app-gateways%2Fblob%2Fmaster%2Fazuredeploy.json" target="_blank">
 <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.png"/>
 </a>
-<a href="http://armviz.io/#/?load=https://github.com/Yuichi-Ikeda/vmss-custom-image-existing-vnet-existing-two-app-gateways/blob/master/azuredeploy.json" target="_blank">
+<a href="http://armviz.io/#/?load=https%3A%2F%2Fgithub.com%2FYuichi-Ikeda%2Fvmss-custom-image-existing-vnet-existing-two-app-gateways%2Fblob%2Fmaster%2Fazuredeploy.json" target="_blank">
 <img src="https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.png"/>
 </a>
 
